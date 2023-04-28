@@ -1,6 +1,7 @@
 import "./App.css";
 import Website from "./components/welcome";
 import counter from "./components/counter";
+import Counter from "./components/counter";
 const App = () => {
   const clickHandler = (name) => {
     <div>alert("Hi" + " " + name);</div>;
