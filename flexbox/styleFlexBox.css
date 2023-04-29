@@ -63,9 +63,9 @@ nav ul {
 
 .mainCard {
   background-color: rgb(126, 11, 50);
-  height: 450px;
+  min-height: 450px;
   padding: 0.5em;
-  margin-inline: 5rem;
+  margin: 5rem;
   align-self: center;
   display: flex;
   flex-direction: row;
