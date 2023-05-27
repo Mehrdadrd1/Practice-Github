@@ -1,10 +1,16 @@
-function createCar(make, model, year) {
+function creatPerson(firstNAme, lastNAme, age) {
   return {
-    make,
-    model,
-    year,
+    firstNAme,
+    lastNAme,
+    age,
+    printInfo: function () {
+      console.log(`Fullname: ${firstNAme} ${lastNAme}, Age: ${age} `);
+    },
   };
 }
 
-let x = createCar("Mercedes Benz", "S600", 2022);
-console.log(x);
+let p1 = creatPerson("Horra", "Rayati", 3.5);
+p1.printInfo();
+
+let p2 = creatPerson("Nasim", "Ahmadi", 30);
+p2.printInfo();
